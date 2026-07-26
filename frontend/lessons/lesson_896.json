@@ -1,0 +1,15 @@
+{
+  "id": 896,
+  "title": "Python Intermediate Concepts - Module #896",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[server * 6 for server in [6, 11, 15, 1, 7] if server > 14]`?",
+  "options": [
+    "[]",
+    "[90]",
+    "SyntaxError",
+    "[12, 22, 30, 2, 14]"
+  ],
+  "answer": "[90]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 12806,
+  "title": "React Intermediate Concepts - Module #12806",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the primary rule of using React Hooks like `useState` or `useEffect`?",
+  "options": [
+    "Hooks must be initialized inside the class `RequestHandler` constructor.",
+    "Hooks must only be called at the top level of functional components, not inside loops or conditional blocks.",
+    "Every Hook must include a callback method to prevent memory leaks.",
+    "Hooks can only be called from vanilla javascript utility scripts."
+  ],
+  "answer": "Hooks must only be called at the top level of functional components, not inside loops or conditional blocks.",
+  "explanation": "React relies on the order of Hook calls to preserve state correct between renders. Calling hooks conditionally disrupts this ordering."
+}

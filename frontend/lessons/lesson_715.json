@@ -1,0 +1,15 @@
+{
+  "id": 715,
+  "title": "Python Intermediate Concepts - Module #715",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "How does the `compute` function decorator behave in Python?",
+  "options": [
+    "It compiles the target function into highly optimized C bytecode.",
+    "It wraps the target function to modify or extend its behavior without changing its source code.",
+    "It converts all local variables in the function to global scope variables.",
+    "It automatically deletes the target function from memory after execution."
+  ],
+  "answer": "It wraps the target function to modify or extend its behavior without changing its source code.",
+  "explanation": "Decorators in Python allow wrapping a function to modify or inspect arguments, return values, or execution flow dynamically."
+}

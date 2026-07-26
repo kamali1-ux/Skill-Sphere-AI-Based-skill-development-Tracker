@@ -1,0 +1,15 @@
+{
+  "id": 370,
+  "title": "Python Beginner Concepts - Module #370",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(payload))` if `payload = 96`?",
+  "options": [
+    "0",
+    "5",
+    "7",
+    "6"
+  ],
+  "answer": "6",
+  "explanation": "The len() function returns the number of items in an object. Since `payload` contains 6 elements, len(payload) evaluates to 6."
+}

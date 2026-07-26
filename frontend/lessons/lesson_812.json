@@ -1,0 +1,15 @@
+{
+  "id": 812,
+  "title": "Python Intermediate Concepts - Module #812",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[cache * 5 for cache in [13, 12, 17, 11, 25] if cache > 16]`?",
+  "options": [
+    "[]",
+    "SyntaxError",
+    "[85, 125]",
+    "[26, 24, 34, 22, 50]"
+  ],
+  "answer": "[85, 125]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

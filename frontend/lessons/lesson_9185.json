@@ -1,0 +1,15 @@
+{
+  "id": 9185,
+  "title": "HTML Intermediate Concepts - Module #9185",
+  "category": "Design",
+  "difficulty": "Intermediate",
+  "question": "What is the primary benefit of using semantic HTML5 elements like `<article>` and `<section>`?",
+  "options": [
+    "They speed up browser rendering by bypassing normal CSS layouts.",
+    "They automatically add border styling and padding on element `header`.",
+    "They encrypt form data before submitting it to the backend api.",
+    "They improve SEO indexing and screen-reader accessibility by describing page structure semantically."
+  ],
+  "answer": "They improve SEO indexing and screen-reader accessibility by describing page structure semantically.",
+  "explanation": "Semantic tags tell search engines and accessibility tools what kind of content is inside, enhancing access and ranking."
+}

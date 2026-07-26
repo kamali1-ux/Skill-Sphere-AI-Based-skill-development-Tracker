@@ -1,0 +1,15 @@
+{
+  "id": 11630,
+  "title": "CSS Advanced Concepts - Module #11630",
+  "category": "Design",
+  "difficulty": "Advanced",
+  "question": "What does the `will-change` CSS property do, and when should it be used?",
+  "options": [
+    "It hints to the browser's rendering engine that an element will animate, letting it pre-render layer composites, but should be used sparingly.",
+    "It prevents CSS inheritance from parent layout containers.",
+    "It forces immediate layout re-calculations on all class `RequestHandler` instances.",
+    "It allows developers to write media queries inside styles dynamically."
+  ],
+  "answer": "It hints to the browser's rendering engine that an element will animate, letting it pre-render layer composites, but should be used sparingly.",
+  "explanation": "`will-change` sets up GPU acceleration layers before changes occur. Overusing it can consume too much memory and degrade performance."
+}

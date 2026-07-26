@@ -1,0 +1,15 @@
+{
+  "id": 4639,
+  "title": "Java Beginner Concepts - Module #4639",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What is the primary difference between a primitive type like `int` and a wrapper class like `Integer` in Java?",
+  "options": [
+    "`int` is a primitive value stored on the stack; `Integer` is an object reference stored on the heap.",
+    "`Integer` executes faster and takes less memory than primitive `int`.",
+    "`int` can store decimal values, whereas `Integer` only stores integers.",
+    "`int` can be null, whereas `Integer` must always have a numeric value."
+  ],
+  "answer": "`int` is a primitive value stored on the stack; `Integer` is an object reference stored on the heap.",
+  "explanation": "Primitive types are basic data values, while wrapper classes are full objects, which allow inclusion in Java Generics and collections like ArrayList."
+}

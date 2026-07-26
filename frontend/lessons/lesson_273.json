@@ -1,0 +1,15 @@
+{
+  "id": 273,
+  "title": "Python Beginner Concepts - Module #273",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(server))` if `server = 11`?",
+  "options": [
+    "4",
+    "0",
+    "5",
+    "6"
+  ],
+  "answer": "5",
+  "explanation": "The len() function returns the number of items in an object. Since `server` contains 5 elements, len(server) evaluates to 5."
+}

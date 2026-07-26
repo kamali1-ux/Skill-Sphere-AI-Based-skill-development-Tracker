@@ -1,0 +1,15 @@
+{
+  "id": 289,
+  "title": "Python Beginner Concepts - Module #289",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `54` to the end of a list named `values` in Python?",
+  "options": [
+    "values.add(54)",
+    "values.push(54)",
+    "values.insert(54)",
+    "values.append(54)"
+  ],
+  "answer": "values.append(54)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

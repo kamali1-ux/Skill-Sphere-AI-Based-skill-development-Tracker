@@ -1,0 +1,15 @@
+{
+  "id": 2540,
+  "title": "SQL Beginner Concepts - Module #2540",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `cache` in table `values`?",
+  "options": [
+    "SELECT UNIQUE cache FROM values;",
+    "SELECT INDIVIDUAL cache FROM values;",
+    "SELECT DISTINCT cache FROM values;",
+    "SELECT DIFFERENT cache FROM values;"
+  ],
+  "answer": "SELECT DISTINCT cache FROM values;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

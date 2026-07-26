@@ -1,0 +1,15 @@
+{
+  "id": 15963,
+  "title": "Node.js Advanced Concepts - Module #15963",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "How does the Node.js event loop leverage the libuv thread pool for asynchronous tasks?",
+  "options": [
+    "The libuv thread pool executes all JavaScript execution in parallel across 4 cores.",
+    "Libuv offloads complex operations (like file system, cryptography, and DNS lookups) to background threads, returning results to the main loop.",
+    "It converts all incoming HTTP requests to background class `CacheManager` instances.",
+    "It suspends the main event loop thread when database connections exceed 100."
+  ],
+  "answer": "Libuv offloads complex operations (like file system, cryptography, and DNS lookups) to background threads, returning results to the main loop.",
+  "explanation": "JavaScript is single-threaded, but libuv manages a pool of threads to run slow, blocking OS tasks asynchronously so the main thread stays responsive."
+}

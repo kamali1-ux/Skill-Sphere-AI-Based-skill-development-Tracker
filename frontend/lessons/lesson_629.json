@@ -1,0 +1,15 @@
+{
+  "id": 629,
+  "title": "Python Beginner Concepts - Module #629",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(records))` if `records = 60`?",
+  "options": [
+    "0",
+    "6",
+    "5",
+    "4"
+  ],
+  "answer": "5",
+  "explanation": "The len() function returns the number of items in an object. Since `records` contains 5 elements, len(records) evaluates to 5."
+}

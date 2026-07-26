@@ -1,0 +1,15 @@
+{
+  "id": 3281,
+  "title": "SQL Intermediate Concepts - Module #3281",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "Which aggregate function should you use to find the average value of the column `stream` in table `config`?",
+  "options": [
+    "MEAN(stream)",
+    "AVG(stream)",
+    "SUM(stream) / COUNT(*)",
+    "AVERAGE(stream)"
+  ],
+  "answer": "AVG(stream)",
+  "explanation": "AVG() is the standard SQL aggregate function for calculating the average of numeric column values."
+}

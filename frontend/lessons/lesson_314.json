@@ -1,0 +1,15 @@
+{
+  "id": 314,
+  "title": "Python Beginner Concepts - Module #314",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(session))` if `session = 52`?",
+  "options": [
+    "3",
+    "0",
+    "2",
+    "4"
+  ],
+  "answer": "3",
+  "explanation": "The len() function returns the number of items in an object. Since `session` contains 3 elements, len(session) evaluates to 3."
+}

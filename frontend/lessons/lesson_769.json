@@ -1,0 +1,15 @@
+{
+  "id": 769,
+  "title": "Python Intermediate Concepts - Module #769",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[values * 4 for values in [14, 1, 19, 20, 8] if values > 11]`?",
+  "options": [
+    "[56, 76, 80]",
+    "[28, 2, 38, 40, 16]",
+    "SyntaxError",
+    "[]"
+  ],
+  "answer": "[56, 76, 80]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

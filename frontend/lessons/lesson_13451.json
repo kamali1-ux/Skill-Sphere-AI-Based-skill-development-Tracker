@@ -1,0 +1,15 @@
+{
+  "id": 13451,
+  "title": "React Advanced Concepts - Module #13451",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "How does React's Fiber architecture enable Concurrent Rendering?",
+  "options": [
+    "By spawning background thread workers on the client browser.",
+    "By compiling React JSX code directly to WebAssembly binary blocks.",
+    "By splitting rendering work into incremental chunks that can be paused, resumed, or aborted based on priority.",
+    "By bypassing the browser DOM entirely and rendering directly on a 2D canvas."
+  ],
+  "answer": "By splitting rendering work into incremental chunks that can be paused, resumed, or aborted based on priority.",
+  "explanation": "Fiber structures work as cooperative units of computation, allowing React to interrupt high-cost renders to process user interactions immediately."
+}

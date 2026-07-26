@@ -1,0 +1,15 @@
+{
+  "id": 2083,
+  "title": "SQL Beginner Concepts - Module #2083",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `users` in table `data`?",
+  "options": [
+    "SELECT DIFFERENT users FROM data;",
+    "SELECT DISTINCT users FROM data;",
+    "SELECT INDIVIDUAL users FROM data;",
+    "SELECT UNIQUE users FROM data;"
+  ],
+  "answer": "SELECT DISTINCT users FROM data;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

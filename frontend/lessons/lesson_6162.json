@@ -1,0 +1,15 @@
+{
+  "id": 6162,
+  "title": "JavaScript Beginner Concepts - Module #6162",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will `typeof []` evaluate to in JavaScript?",
+  "options": [
+    "'object'",
+    "'list'",
+    "'undefined'",
+    "'array'"
+  ],
+  "answer": "'object'",
+  "explanation": "In JavaScript, arrays are technically special objects, so the `typeof` operator returns `'object'`. To check if a variable is an array, you should use `Array.isArray()`."
+}

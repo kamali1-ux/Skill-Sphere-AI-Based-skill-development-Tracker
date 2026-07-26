@@ -1,0 +1,15 @@
+{
+  "id": 15352,
+  "title": "Node.js Intermediate Concepts - Module #15352",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the purpose of Node.js streams?",
+  "options": [
+    "To process large volumes of data incrementally in chunks, avoiding high memory overhead.",
+    "To automatically parse HTML element classes dynamically.",
+    "To compress static JS files in the project folder.",
+    "To establish real-time socket connections with multiple server threads."
+  ],
+  "answer": "To process large volumes of data incrementally in chunks, avoiding high memory overhead.",
+  "explanation": "Streams read or write data piece-by-piece. This prevents holding entire large files in RAM, making the server highly memory-efficient."
+}

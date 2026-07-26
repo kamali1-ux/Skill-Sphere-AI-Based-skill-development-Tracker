@@ -1,0 +1,15 @@
+{
+  "id": 1828,
+  "title": "Python Advanced Concepts - Module #1828",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "Under what circumstance does the Python Global Interpreter Lock (GIL) release control to other threads?",
+  "options": [
+    "When the class `SessionTracker` invokes garbage collection.",
+    "Only when a thread runs for exactly 10,000 CPU instructions.",
+    "Never; Python is single-threaded and cannot run other threads.",
+    "During blocking I/O operations or explicit calls to time.sleep()."
+  ],
+  "answer": "During blocking I/O operations or explicit calls to time.sleep().",
+  "explanation": "The GIL is released during I/O operations, sleeping, or when C-extensions explicitly release it, allowing other threads to execute."
+}

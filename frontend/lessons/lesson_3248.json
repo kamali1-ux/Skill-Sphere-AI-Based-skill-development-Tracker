@@ -1,0 +1,15 @@
+{
+  "id": 3248,
+  "title": "SQL Intermediate Concepts - Module #3248",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "Which aggregate function should you use to find the average value of the column `server` in table `users`?",
+  "options": [
+    "MEAN(server)",
+    "SUM(server) / COUNT(*)",
+    "AVG(server)",
+    "AVERAGE(server)"
+  ],
+  "answer": "AVG(server)",
+  "explanation": "AVG() is the standard SQL aggregate function for calculating the average of numeric column values."
+}

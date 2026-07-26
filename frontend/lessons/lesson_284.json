@@ -1,0 +1,15 @@
+{
+  "id": 284,
+  "title": "Python Beginner Concepts - Module #284",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(stream))` if `stream = 17`?",
+  "options": [
+    "6",
+    "5",
+    "0",
+    "7"
+  ],
+  "answer": "6",
+  "explanation": "The len() function returns the number of items in an object. Since `stream` contains 6 elements, len(stream) evaluates to 6."
+}

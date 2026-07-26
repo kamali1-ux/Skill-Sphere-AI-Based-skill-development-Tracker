@@ -1,0 +1,15 @@
+{
+  "id": 2561,
+  "title": "SQL Beginner Concepts - Module #2561",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `output` in table `request`?",
+  "options": [
+    "SELECT DISTINCT output FROM request;",
+    "SELECT DIFFERENT output FROM request;",
+    "SELECT UNIQUE output FROM request;",
+    "SELECT INDIVIDUAL output FROM request;"
+  ],
+  "answer": "SELECT DISTINCT output FROM request;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

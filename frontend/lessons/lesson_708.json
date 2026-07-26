@@ -1,0 +1,15 @@
+{
+  "id": 708,
+  "title": "Python Intermediate Concepts - Module #708",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[nodes * 8 for nodes in [11, 8, 13, 2, 7] if nodes > 13]`?",
+  "options": [
+    "[]",
+    "[22, 16, 26, 4, 14]",
+    "[]",
+    "SyntaxError"
+  ],
+  "answer": "[]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

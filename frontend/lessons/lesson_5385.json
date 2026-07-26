@@ -1,0 +1,15 @@
+{
+  "id": 5385,
+  "title": "Java Intermediate Concepts - Module #5385",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "How does method overriding differ from method overloading in class `DatabaseConnection`?",
+  "options": [
+    "Overriding defines a subclass method with the same signature; overloading defines methods in the same class with different parameters.",
+    "Overloading uses the `@Override` annotation, while overriding is resolved at compile time.",
+    "Overloading changes class inheritance; overriding modifies local parameters.",
+    "Overriding is static polymorphism; overloading is dynamic runtime polymorphism."
+  ],
+  "answer": "Overriding defines a subclass method with the same signature; overloading defines methods in the same class with different parameters.",
+  "explanation": "Overriding allows subclasses to provide custom implementations of parent methods. Overloading allows multiple methods in a class to share a name but differ in signatures."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 182,
+  "title": "Python Beginner Concepts - Module #182",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `5` to the end of a list named `nodes` in Python?",
+  "options": [
+    "nodes.add(5)",
+    "nodes.push(5)",
+    "nodes.insert(5)",
+    "nodes.append(5)"
+  ],
+  "answer": "nodes.append(5)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 1829,
+  "title": "Python Advanced Concepts - Module #1829",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "What is the correct signature and behavior of the `__get__` method in Python's descriptor protocol?",
+  "options": [
+    "`def __get__(self, instance)`: returns the attribute value, where `instance` is always the global module.",
+    "`def __get__(self, instance, owner)`: returns the attribute value, where `instance` is the calling object and `owner` is the class.",
+    "`def __get__(self, instance, class, value)`: updates the attribute dynamically.",
+    "`def __get__(self, owner)`: returns the attributes of class `ConfigLoader` dynamically."
+  ],
+  "answer": "`def __get__(self, instance, owner)`: returns the attribute value, where `instance` is the calling object and `owner` is the class.",
+  "explanation": "The descriptor protocol's `__get__` takes three arguments: self (the descriptor instance), instance (the object the descriptor was accessed from), and owner (the class of the instance)."
+}

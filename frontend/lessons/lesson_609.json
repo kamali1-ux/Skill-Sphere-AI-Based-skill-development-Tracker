@@ -1,0 +1,15 @@
+{
+  "id": 609,
+  "title": "Python Beginner Concepts - Module #609",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What is the correct syntax to create a dictionary with a key `module_key_609` and value `96` in Python?",
+  "options": [
+    "new dict('module_key_609', 96)",
+    "dict('module_key_609' = 96)",
+    "[('module_key_609', 96)]",
+    "{'module_key_609': 96}"
+  ],
+  "answer": "{'module_key_609': 96}",
+  "explanation": "Dictionaries in Python are created using curly braces with key-value pairs separated by colons, i.e., {'key': value}."
+}

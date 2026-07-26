@@ -1,0 +1,15 @@
+{
+  "id": 3690,
+  "title": "SQL Advanced Concepts - Module #3690",
+  "category": "Data Science",
+  "difficulty": "Advanced",
+  "question": "How does the SQL window function `ROW_NUMBER() OVER (PARTITION BY nodes ORDER BY server)` behave?",
+  "options": [
+    "It counts the total rows grouped by column `nodes`.",
+    "It ranks rows but leaves gaps in sequential numbering if duplicate values exist in column `server`.",
+    "It assigns a unique sequential integer to rows within each partition of `nodes`, ordered by `server`.",
+    "It sorts the physical rows in table `nodes` using a clustered index."
+  ],
+  "answer": "It assigns a unique sequential integer to rows within each partition of `nodes`, ordered by `server`.",
+  "explanation": "ROW_NUMBER() assigns a unique number starting at 1 for each row in a partition, resetting the count when the partition column changes."
+}

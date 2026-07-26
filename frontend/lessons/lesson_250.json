@@ -1,0 +1,15 @@
+{
+  "id": 250,
+  "title": "Python Beginner Concepts - Module #250",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `48` to the end of a list named `cache` in Python?",
+  "options": [
+    "cache.insert(48)",
+    "cache.append(48)",
+    "cache.add(48)",
+    "cache.push(48)"
+  ],
+  "answer": "cache.append(48)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

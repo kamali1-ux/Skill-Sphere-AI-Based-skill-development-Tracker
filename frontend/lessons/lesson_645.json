@@ -1,0 +1,15 @@
+{
+  "id": 645,
+  "title": "Python Beginner Concepts - Module #645",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(config))` if `config = 35`?",
+  "options": [
+    "6",
+    "7",
+    "0",
+    "5"
+  ],
+  "answer": "6",
+  "explanation": "The len() function returns the number of items in an object. Since `config` contains 6 elements, len(config) evaluates to 6."
+}

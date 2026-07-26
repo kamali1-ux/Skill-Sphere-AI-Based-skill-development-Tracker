@@ -1,0 +1,15 @@
+{
+  "id": 2802,
+  "title": "SQL Intermediate Concepts - Module #2802",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "Which aggregate function should you use to find the average value of the column `payload` in table `buffer`?",
+  "options": [
+    "MEAN(payload)",
+    "AVG(payload)",
+    "SUM(payload) / COUNT(*)",
+    "AVERAGE(payload)"
+  ],
+  "answer": "AVG(payload)",
+  "explanation": "AVG() is the standard SQL aggregate function for calculating the average of numeric column values."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 856,
+  "title": "Python Intermediate Concepts - Module #856",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[buffer * 9 for buffer in [20, 7, 22, 9, 18] if buffer > 16]`?",
+  "options": [
+    "[]",
+    "[180, 198, 162]",
+    "[40, 14, 44, 18, 36]",
+    "SyntaxError"
+  ],
+  "answer": "[180, 198, 162]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

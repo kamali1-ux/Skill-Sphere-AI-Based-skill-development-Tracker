@@ -1,0 +1,15 @@
+{
+  "id": 2693,
+  "title": "SQL Beginner Concepts - Module #2693",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `nodes` in table `payload`?",
+  "options": [
+    "SELECT INDIVIDUAL nodes FROM payload;",
+    "SELECT DIFFERENT nodes FROM payload;",
+    "SELECT UNIQUE nodes FROM payload;",
+    "SELECT DISTINCT nodes FROM payload;"
+  ],
+  "answer": "SELECT DISTINCT nodes FROM payload;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

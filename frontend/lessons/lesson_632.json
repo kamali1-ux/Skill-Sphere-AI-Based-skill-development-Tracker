@@ -1,0 +1,15 @@
+{
+  "id": 632,
+  "title": "Python Beginner Concepts - Module #632",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `36` to the end of a list named `buffer` in Python?",
+  "options": [
+    "buffer.push(36)",
+    "buffer.insert(36)",
+    "buffer.add(36)",
+    "buffer.append(36)"
+  ],
+  "answer": "buffer.append(36)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

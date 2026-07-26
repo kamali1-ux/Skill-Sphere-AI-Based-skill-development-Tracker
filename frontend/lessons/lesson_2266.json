@@ -1,0 +1,15 @@
+{
+  "id": 2266,
+  "title": "SQL Beginner Concepts - Module #2266",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `stream` in table `config`?",
+  "options": [
+    "SELECT INDIVIDUAL stream FROM config;",
+    "SELECT UNIQUE stream FROM config;",
+    "SELECT DIFFERENT stream FROM config;",
+    "SELECT DISTINCT stream FROM config;"
+  ],
+  "answer": "SELECT DISTINCT stream FROM config;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

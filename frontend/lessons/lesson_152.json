@@ -1,0 +1,15 @@
+{
+  "id": 152,
+  "title": "Python Beginner Concepts - Module #152",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `15` to the end of a list named `config` in Python?",
+  "options": [
+    "config.push(15)",
+    "config.add(15)",
+    "config.insert(15)",
+    "config.append(15)"
+  ],
+  "answer": "config.append(15)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

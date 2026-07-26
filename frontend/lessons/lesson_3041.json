@@ -1,0 +1,15 @@
+{
+  "id": 3041,
+  "title": "SQL Intermediate Concepts - Module #3041",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "What is the difference between an `INNER JOIN` and a `LEFT JOIN` on tables `result` and `cache`?",
+  "options": [
+    "`INNER JOIN` requires primary keys on column `result`; `LEFT JOIN` does not require keys.",
+    "`INNER JOIN` merges rows horizontally; `LEFT JOIN` appends them vertically.",
+    "`INNER JOIN` returns matching rows in both tables; `LEFT JOIN` returns all rows from `result` plus matching rows from `cache`.",
+    "`INNER JOIN` returns all rows from both tables; `LEFT JOIN` returns only matching rows from `result`."
+  ],
+  "answer": "`INNER JOIN` returns matching rows in both tables; `LEFT JOIN` returns all rows from `result` plus matching rows from `cache`.",
+  "explanation": "INNER JOIN filters out non-matching rows, while LEFT JOIN preserves all rows from the left table, padding matching columns from the right table with NULL where no match exists."
+}

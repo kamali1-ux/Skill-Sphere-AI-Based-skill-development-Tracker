@@ -1,0 +1,15 @@
+{
+  "id": 14010,
+  "title": "Node.js Beginner Concepts - Module #14010",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which built-in Node.js module is used to work with files on the filesystem?",
+  "options": [
+    "os",
+    "path",
+    "http",
+    "fs"
+  ],
+  "answer": "fs",
+  "explanation": "The 'fs' (file system) module provides APIs to read, write, update, delete, and monitor files."
+}

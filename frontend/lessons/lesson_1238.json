@@ -1,0 +1,15 @@
+{
+  "id": 1238,
+  "title": "Python Intermediate Concepts - Module #1238",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[request * 7 for request in [24, 8, 15, 8, 8] if request > 14]`?",
+  "options": [
+    "[168, 105]",
+    "[]",
+    "[48, 16, 30, 16, 16]",
+    "SyntaxError"
+  ],
+  "answer": "[168, 105]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

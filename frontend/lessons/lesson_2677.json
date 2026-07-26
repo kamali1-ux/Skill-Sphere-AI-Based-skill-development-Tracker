@@ -1,0 +1,15 @@
+{
+  "id": 2677,
+  "title": "SQL Beginner Concepts - Module #2677",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `buffer` in table `data`?",
+  "options": [
+    "SELECT DISTINCT buffer FROM data;",
+    "SELECT UNIQUE buffer FROM data;",
+    "SELECT DIFFERENT buffer FROM data;",
+    "SELECT INDIVIDUAL buffer FROM data;"
+  ],
+  "answer": "SELECT DISTINCT buffer FROM data;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

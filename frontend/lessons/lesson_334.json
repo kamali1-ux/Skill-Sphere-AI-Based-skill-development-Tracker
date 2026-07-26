@@ -1,0 +1,15 @@
+{
+  "id": 334,
+  "title": "Python Beginner Concepts - Module #334",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(client))` if `client = 2`?",
+  "options": [
+    "4",
+    "2",
+    "0",
+    "3"
+  ],
+  "answer": "3",
+  "explanation": "The len() function returns the number of items in an object. Since `client` contains 3 elements, len(client) evaluates to 3."
+}

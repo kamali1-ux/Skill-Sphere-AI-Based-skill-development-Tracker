@@ -1,0 +1,15 @@
+{
+  "id": 16662,
+  "title": "Machine Learning Beginner Concepts - Module #16662",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "What is the difference between supervised and unsupervised learning?",
+  "options": [
+    "Unsupervised learning requires manual classification of variables by database admins.",
+    "Supervised learning only supports linear algorithms, while unsupervised does not.",
+    "Supervised learning trains models on labeled data; unsupervised learning works with unlabeled data to find hidden patterns.",
+    "Supervised learning is faster because it runs on GPU hardware."
+  ],
+  "answer": "Supervised learning trains models on labeled data; unsupervised learning works with unlabeled data to find hidden patterns.",
+  "explanation": "Supervised learning maps inputs to target outputs. Unsupervised learning groups data by feature similarity without predefined labels."
+}

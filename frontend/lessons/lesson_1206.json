@@ -1,0 +1,15 @@
+{
+  "id": 1206,
+  "title": "Python Intermediate Concepts - Module #1206",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the primary difference between a list and a generator expression in Python?",
+  "options": [
+    "Generators evaluate items lazily on demand, saving memory.",
+    "Generators support random index access, whereas lists do not.",
+    "Lists are immutable, whereas generators can be modified in place.",
+    "Lists use parentheses (), whereas generators use square brackets []."
+  ],
+  "answer": "Generators evaluate items lazily on demand, saving memory.",
+  "explanation": "Generators yield items one by one using lazy evaluation, making them much more memory-efficient than lists which load all items into memory immediately."
+}

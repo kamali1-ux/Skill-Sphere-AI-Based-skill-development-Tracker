@@ -1,0 +1,15 @@
+{
+  "id": 2847,
+  "title": "SQL Intermediate Concepts - Module #2847",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "What is the difference between an `INNER JOIN` and a `LEFT JOIN` on tables `client` and `records`?",
+  "options": [
+    "`INNER JOIN` returns matching rows in both tables; `LEFT JOIN` returns all rows from `client` plus matching rows from `records`.",
+    "`INNER JOIN` returns all rows from both tables; `LEFT JOIN` returns only matching rows from `client`.",
+    "`INNER JOIN` merges rows horizontally; `LEFT JOIN` appends them vertically.",
+    "`INNER JOIN` requires primary keys on column `client`; `LEFT JOIN` does not require keys."
+  ],
+  "answer": "`INNER JOIN` returns matching rows in both tables; `LEFT JOIN` returns all rows from `client` plus matching rows from `records`.",
+  "explanation": "INNER JOIN filters out non-matching rows, while LEFT JOIN preserves all rows from the left table, padding matching columns from the right table with NULL where no match exists."
+}

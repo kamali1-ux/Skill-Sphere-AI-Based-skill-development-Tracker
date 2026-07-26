@@ -1,0 +1,15 @@
+{
+  "id": 2692,
+  "title": "SQL Beginner Concepts - Module #2692",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "What clause is used to filter query results based on conditions involving column `cache`?",
+  "options": [
+    "ORDER BY",
+    "WHERE",
+    "GROUP BY",
+    "HAVING"
+  ],
+  "answer": "WHERE",
+  "explanation": "The WHERE clause is used to filter rows in a query based on a specific boolean condition."
+}

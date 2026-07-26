@@ -1,0 +1,15 @@
+{
+  "id": 7611,
+  "title": "JavaScript Advanced Concepts - Module #7611",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "How does the JavaScript event loop prioritize microtasks vs macrotasks?",
+  "options": [
+    "All microtasks in the queue are executed immediately after the current script stack clears, before any macrotasks are processed.",
+    "Macrotasks are prioritized, and microtasks are only processed if the CPU usage falls below 10%.",
+    "The event loop executes one macrotask, then executes one microtask, switching back and forth.",
+    "Microtasks are handled by background web worker threads and run parallel to macrotasks."
+  ],
+  "answer": "All microtasks in the queue are executed immediately after the current script stack clears, before any macrotasks are processed.",
+  "explanation": "Microtasks (such as Promise callbacks) have higher priority. The microtask queue is completely drained at the end of each execution tick before taking the next macrotask (like setTimeout)."
+}

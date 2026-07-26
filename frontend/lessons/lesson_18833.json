@@ -1,0 +1,15 @@
+{
+  "id": 18833,
+  "title": "Git Intermediate Concepts - Module #18833",
+  "category": "Leadership",
+  "difficulty": "Intermediate",
+  "question": "How does `git merge` differ from `git rebase`?",
+  "options": [
+    "Merge combines branches leaving a complete history with merge commits; rebase moves the branch start point, rewriting commit history linearly.",
+    "Merge only modifies metadata; rebase changes physical files in the folder.",
+    "Merge only copies new files; rebase deletes the target branch.",
+    "Rebase requires connecting to a remote server, while merge runs offline."
+  ],
+  "answer": "Merge combines branches leaving a complete history with merge commits; rebase moves the branch start point, rewriting commit history linearly.",
+  "explanation": "Merge preserves exact historical commit sequences. Rebase rewrites history by placing local commits on top of the target branch commits, creating a clean linear timeline."
+}

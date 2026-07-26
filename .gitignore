@@ -1,0 +1,15 @@
+# Exclude folders
+.venv/
+__pycache__/
+.vscode/
+.refact/
+node_modules/
+target/
+.idea/
+
+# Exclude specific files
+*.pyc
+*.log
+ai-module/models/*.joblib
+ai-module/models/*.png
+ai-module/models/*.txt

@@ -1,0 +1,15 @@
+{
+  "id": 8615,
+  "title": "HTML Beginner Concepts - Module #8615",
+  "category": "Design",
+  "difficulty": "Beginner",
+  "question": "Which HTML element is correct for displaying the main heading of a section?",
+  "options": [
+    "<heading>",
+    "<head>",
+    "<h1>",
+    "<header>"
+  ],
+  "answer": "<h1>",
+  "explanation": "<h1> is the standard semantic HTML element for the highest-level heading on a page. `<head>` is for metadata, and `<header>` is a section container."
+}

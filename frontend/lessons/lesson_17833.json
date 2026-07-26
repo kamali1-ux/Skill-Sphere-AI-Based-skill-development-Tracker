@@ -1,0 +1,15 @@
+{
+  "id": 17833,
+  "title": "Machine Learning Advanced Concepts - Module #17833",
+  "category": "Data Science",
+  "difficulty": "Advanced",
+  "question": "What is the purpose of the self-attention mechanism in Transformer architectures?",
+  "options": [
+    "It locks the weight parameters of the neural network during backward propagation.",
+    "It allows the model to dynamically weigh the relevance of different tokens in a sequence relative to one another, regardless of distance.",
+    "It automatically prunes low-importance input variables from the dataset.",
+    "It computes accuracy metrics using a parallel clustered matrix."
+  ],
+  "answer": "It allows the model to dynamically weigh the relevance of different tokens in a sequence relative to one another, regardless of distance.",
+  "explanation": "Self-attention evaluates the relationship of all words in a sentence at once. This solves long-range dependency limitations in traditional architectures like RNNs."
+}

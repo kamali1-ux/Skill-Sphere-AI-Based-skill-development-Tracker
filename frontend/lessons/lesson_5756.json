@@ -1,0 +1,15 @@
+{
+  "id": 5756,
+  "title": "Java Advanced Concepts - Module #5756",
+  "category": "Programming",
+  "difficulty": "Advanced",
+  "question": "What is the concept of Type Erasure in Java Generics?",
+  "options": [
+    "It is the process of deleting unreferenced variables from heap memory.",
+    "The JVM deletes object structures from memory during garbage collection to optimize space.",
+    "The compiler removes type parameters at compile-time and replaces them with raw types or Object bounds.",
+    "Java runtime casts all objects in class `FileParser` to primitive arrays."
+  ],
+  "answer": "The compiler removes type parameters at compile-time and replaces them with raw types or Object bounds.",
+  "explanation": "Type erasure ensures backwards compatibility with older Java versions by removing generic type information during compilation, so the bytecode only uses standard classes/objects."
+}

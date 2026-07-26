@@ -1,0 +1,15 @@
+{
+  "id": 968,
+  "title": "Python Intermediate Concepts - Module #968",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[payload * 6 for payload in [11, 17, 14, 4, 9] if payload > 19]`?",
+  "options": [
+    "[]",
+    "[22, 34, 28, 8, 18]",
+    "SyntaxError",
+    "[]"
+  ],
+  "answer": "[]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 860,
+  "title": "Python Intermediate Concepts - Module #860",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[config * 6 for config in [16, 8, 20, 5, 18] if config > 19]`?",
+  "options": [
+    "[]",
+    "SyntaxError",
+    "[32, 16, 40, 10, 36]",
+    "[120]"
+  ],
+  "answer": "[120]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

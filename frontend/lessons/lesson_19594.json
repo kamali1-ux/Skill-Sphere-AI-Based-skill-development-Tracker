@@ -1,0 +1,15 @@
+{
+  "id": 19594,
+  "title": "Git Advanced Concepts - Module #19594",
+  "category": "Leadership",
+  "difficulty": "Advanced",
+  "question": "What is the purpose of the `git reflog` command in version control?",
+  "options": [
+    "It pushes local ref states to the main server branch.",
+    "It displays the server pull logs from remote repository repositories.",
+    "It lists all untracked files in class folders.",
+    "It logs the history of all local HEAD reference changes, allowing recovery of deleted commits or aborted rebases."
+  ],
+  "answer": "It logs the history of all local HEAD reference changes, allowing recovery of deleted commits or aborted rebases.",
+  "explanation": "Git reflog tracks local checkouts, commits, rebases, and merges. Since git holds deleted commits in garbage collection for a period, reflog lets you retrieve their hashes."
+}

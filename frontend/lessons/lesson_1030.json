@@ -1,0 +1,15 @@
+{
+  "id": 1030,
+  "title": "Python Intermediate Concepts - Module #1030",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[token * 3 for token in [7, 1, 19, 5, 6] if token > 17]`?",
+  "options": [
+    "[57]",
+    "[]",
+    "[14, 2, 38, 10, 12]",
+    "SyntaxError"
+  ],
+  "answer": "[57]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

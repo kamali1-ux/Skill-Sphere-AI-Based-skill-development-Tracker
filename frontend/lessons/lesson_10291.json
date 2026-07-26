@@ -1,0 +1,15 @@
+{
+  "id": 10291,
+  "title": "CSS Beginner Concepts - Module #10291",
+  "category": "Design",
+  "difficulty": "Beginner",
+  "question": "Which CSS property is used to change the background color of element `input-field`?",
+  "options": [
+    "bgcolor",
+    "color",
+    "background-color",
+    "background-fill"
+  ],
+  "answer": "background-color",
+  "explanation": "The background-color property sets the background color of an element. The color property sets text color."
+}

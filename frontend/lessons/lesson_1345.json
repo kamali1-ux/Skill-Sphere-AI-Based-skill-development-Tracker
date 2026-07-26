@@ -1,0 +1,15 @@
+{
+  "id": 1345,
+  "title": "Python Intermediate Concepts - Module #1345",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[session * 3 for session in [4, 6, 17, 23, 19] if session > 15]`?",
+  "options": [
+    "[8, 12, 34, 46, 38]",
+    "SyntaxError",
+    "[]",
+    "[51, 69, 57]"
+  ],
+  "answer": "[51, 69, 57]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

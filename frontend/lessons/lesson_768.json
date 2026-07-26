@@ -1,0 +1,15 @@
+{
+  "id": 768,
+  "title": "Python Intermediate Concepts - Module #768",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[stream * 2 for stream in [4, 7, 22, 9, 23] if stream > 13]`?",
+  "options": [
+    "[]",
+    "[44, 46]",
+    "SyntaxError",
+    "[8, 14, 44, 18, 46]"
+  ],
+  "answer": "[44, 46]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

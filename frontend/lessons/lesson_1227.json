@@ -1,0 +1,15 @@
+{
+  "id": 1227,
+  "title": "Python Intermediate Concepts - Module #1227",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "How does the `format` function decorator behave in Python?",
+  "options": [
+    "It automatically deletes the target function from memory after execution.",
+    "It converts all local variables in the function to global scope variables.",
+    "It wraps the target function to modify or extend its behavior without changing its source code.",
+    "It compiles the target function into highly optimized C bytecode."
+  ],
+  "answer": "It wraps the target function to modify or extend its behavior without changing its source code.",
+  "explanation": "Decorators in Python allow wrapping a function to modify or inspect arguments, return values, or execution flow dynamically."
+}

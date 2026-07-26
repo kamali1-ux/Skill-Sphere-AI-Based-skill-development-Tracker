@@ -1,0 +1,15 @@
+{
+  "id": 6742,
+  "title": "JavaScript Intermediate Concepts - Module #6742",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is a closure in JavaScript?",
+  "options": [
+    "A function that retains access to its lexical scope variables even when executed outside that scope.",
+    "A special class decorator used to lock method definitions in class `RequestHandler`.",
+    "The process of terminating a thread or resolving a Promise.",
+    "A private block of code enclosed within curly braces that cannot access global variables."
+  ],
+  "answer": "A function that retains access to its lexical scope variables even when executed outside that scope.",
+  "explanation": "Closures allow nested inner functions to 'remember' and access outer variables even after the outer function has finished executing."
+}

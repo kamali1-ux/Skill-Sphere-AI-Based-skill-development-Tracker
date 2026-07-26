@@ -1,0 +1,15 @@
+{
+  "id": 369,
+  "title": "Python Beginner Concepts - Module #369",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `15` to the end of a list named `payload` in Python?",
+  "options": [
+    "payload.add(15)",
+    "payload.append(15)",
+    "payload.push(15)",
+    "payload.insert(15)"
+  ],
+  "answer": "payload.append(15)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 10129,
+  "title": "CSS Beginner Concepts - Module #10129",
+  "category": "Design",
+  "difficulty": "Beginner",
+  "question": "Which CSS property is used to change the background color of element `header`?",
+  "options": [
+    "background-color",
+    "background-fill",
+    "bgcolor",
+    "color"
+  ],
+  "answer": "background-color",
+  "explanation": "The background-color property sets the background color of an element. The color property sets text color."
+}

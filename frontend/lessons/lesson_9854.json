@@ -1,0 +1,15 @@
+{
+  "id": 9854,
+  "title": "HTML Advanced Concepts - Module #9854",
+  "category": "Design",
+  "difficulty": "Advanced",
+  "question": "What is the purpose of ARIA landmark roles in advanced web accessibility?",
+  "options": [
+    "They define logical regions of a page (e.g., banner, main, navigation) so screen readers can jump directly to them.",
+    "They validate form entries using native browser validation scripts.",
+    "They accelerate shadow DOM rendering for custom component `modal-dialog`.",
+    "They map touch gestures to keyboard shortcuts in mobile web apps."
+  ],
+  "answer": "They define logical regions of a page (e.g., banner, main, navigation) so screen readers can jump directly to them.",
+  "explanation": "ARIA landmarks allow screen reader users to understand layout structure and navigate web pages quickly by bypassing repetitive headers."
+}

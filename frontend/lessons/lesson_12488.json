@@ -1,0 +1,15 @@
+{
+  "id": 12488,
+  "title": "React Beginner Concepts - Module #12488",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What is JSX in React?",
+  "options": [
+    "An asynchronous state manager built into class `FileParser`.",
+    "A custom compilers used to minify javascript outputs.",
+    "A special security layer to block cross-site scripting.",
+    "A syntax extension to JavaScript that allows writing HTML-like structure directly inside React files."
+  ],
+  "answer": "A syntax extension to JavaScript that allows writing HTML-like structure directly inside React files.",
+  "explanation": "JSX is transpiled by tools like Babel into standard React.createElement calls, providing an intuitive syntax for templates."
+}

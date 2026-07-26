@@ -1,0 +1,15 @@
+{
+  "id": 18681,
+  "title": "Git Beginner Concepts - Module #18681",
+  "category": "Leadership",
+  "difficulty": "Beginner",
+  "question": "What is the purpose of the `git init` command?",
+  "options": [
+    "To download a remote project from GitHub.",
+    "To merge branches in the local repository.",
+    "To stage all local file changes for commit.",
+    "To create a new local Git repository in the current folder."
+  ],
+  "answer": "To create a new local Git repository in the current folder.",
+  "explanation": "git init creates a hidden `.git` folder containing metadata, initializing version tracking in that directory."
+}

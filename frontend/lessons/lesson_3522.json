@@ -1,0 +1,15 @@
+{
+  "id": 3522,
+  "title": "SQL Advanced Concepts - Module #3522",
+  "category": "Data Science",
+  "difficulty": "Advanced",
+  "question": "How does the SQL window function `ROW_NUMBER() OVER (PARTITION BY payload ORDER BY items)` behave?",
+  "options": [
+    "It counts the total rows grouped by column `payload`.",
+    "It sorts the physical rows in table `payload` using a clustered index.",
+    "It assigns a unique sequential integer to rows within each partition of `payload`, ordered by `items`.",
+    "It ranks rows but leaves gaps in sequential numbering if duplicate values exist in column `items`."
+  ],
+  "answer": "It assigns a unique sequential integer to rows within each partition of `payload`, ordered by `items`.",
+  "explanation": "ROW_NUMBER() assigns a unique number starting at 1 for each row in a partition, resetting the count when the partition column changes."
+}

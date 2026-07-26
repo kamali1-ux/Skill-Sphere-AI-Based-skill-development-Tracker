@@ -1,0 +1,15 @@
+{
+  "id": 3898,
+  "title": "SQL Advanced Concepts - Module #3898",
+  "category": "Data Science",
+  "difficulty": "Advanced",
+  "question": "How does the SQL window function `ROW_NUMBER() OVER (PARTITION BY response ORDER BY token)` behave?",
+  "options": [
+    "It ranks rows but leaves gaps in sequential numbering if duplicate values exist in column `token`.",
+    "It assigns a unique sequential integer to rows within each partition of `response`, ordered by `token`.",
+    "It counts the total rows grouped by column `response`.",
+    "It sorts the physical rows in table `response` using a clustered index."
+  ],
+  "answer": "It assigns a unique sequential integer to rows within each partition of `response`, ordered by `token`.",
+  "explanation": "ROW_NUMBER() assigns a unique number starting at 1 for each row in a partition, resetting the count when the partition column changes."
+}

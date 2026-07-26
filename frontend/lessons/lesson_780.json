@@ -1,0 +1,15 @@
+{
+  "id": 780,
+  "title": "Python Intermediate Concepts - Module #780",
+  "category": "Programming",
+  "difficulty": "Intermediate",
+  "question": "What is the output of the list comprehension `[records * 3 for records in [21, 18, 17, 24, 1] if records > 19]`?",
+  "options": [
+    "[]",
+    "[63, 72]",
+    "[42, 36, 34, 48, 2]",
+    "SyntaxError"
+  ],
+  "answer": "[63, 72]",
+  "explanation": "The list comprehension filters `{list_val}` keeping only elements greater than {num2}, then multiplies each by {num1}, yielding {ans_val}."
+}

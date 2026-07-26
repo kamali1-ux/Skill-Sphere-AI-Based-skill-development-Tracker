@@ -1,0 +1,15 @@
+{
+  "id": 2482,
+  "title": "SQL Beginner Concepts - Module #2482",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `session` in table `server`?",
+  "options": [
+    "SELECT DISTINCT session FROM server;",
+    "SELECT INDIVIDUAL session FROM server;",
+    "SELECT UNIQUE session FROM server;",
+    "SELECT DIFFERENT session FROM server;"
+  ],
+  "answer": "SELECT DISTINCT session FROM server;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 394,
+  "title": "Python Beginner Concepts - Module #394",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(buffer))` if `buffer = 24`?",
+  "options": [
+    "6",
+    "0",
+    "5",
+    "4"
+  ],
+  "answer": "5",
+  "explanation": "The len() function returns the number of items in an object. Since `buffer` contains 5 elements, len(buffer) evaluates to 5."
+}

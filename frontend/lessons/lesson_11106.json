@@ -1,0 +1,15 @@
+{
+  "id": 11106,
+  "title": "CSS Intermediate Concepts - Module #11106",
+  "category": "Design",
+  "difficulty": "Intermediate",
+  "question": "What is the main layout difference between CSS Flexbox and CSS Grid?",
+  "options": [
+    "Flexbox is designed for one-dimensional layouts (row or column); Grid is designed for two-dimensional layouts (rows and columns simultaneously).",
+    "Grid requires javascript to calculate alignment, whereas Flexbox runs natively.",
+    "Flexbox is only supported on mobile devices; Grid is supported on desktop.",
+    "Flexbox only operates on width; Grid only operates on height."
+  ],
+  "answer": "Flexbox is designed for one-dimensional layouts (row or column); Grid is designed for two-dimensional layouts (rows and columns simultaneously).",
+  "explanation": "Flexbox distributes space along a single axis. Grid is container-based and handles alignment along rows and columns at once."
+}

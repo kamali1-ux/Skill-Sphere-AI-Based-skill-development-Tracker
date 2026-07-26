@@ -1,0 +1,15 @@
+{
+  "id": 63,
+  "title": "Python Beginner Concepts - Module #63",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `85` to the end of a list named `session` in Python?",
+  "options": [
+    "session.add(85)",
+    "session.insert(85)",
+    "session.push(85)",
+    "session.append(85)"
+  ],
+  "answer": "session.append(85)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

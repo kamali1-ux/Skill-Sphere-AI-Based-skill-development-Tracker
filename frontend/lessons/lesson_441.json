@@ -1,0 +1,15 @@
+{
+  "id": 441,
+  "title": "Python Beginner Concepts - Module #441",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "What will be the output of `print(len(cache))` if `cache = 36`?",
+  "options": [
+    "2",
+    "0",
+    "3",
+    "4"
+  ],
+  "answer": "3",
+  "explanation": "The len() function returns the number of items in an object. Since `cache` contains 3 elements, len(cache) evaluates to 3."
+}

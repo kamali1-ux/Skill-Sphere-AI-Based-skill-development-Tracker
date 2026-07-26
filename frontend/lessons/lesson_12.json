@@ -1,0 +1,15 @@
+{
+  "id": 12,
+  "title": "Python Beginner Concepts - Module #12",
+  "category": "Programming",
+  "difficulty": "Beginner",
+  "question": "Which of the following methods is used to add the value `36` to the end of a list named `stream` in Python?",
+  "options": [
+    "stream.insert(36)",
+    "stream.append(36)",
+    "stream.add(36)",
+    "stream.push(36)"
+  ],
+  "answer": "stream.append(36)",
+  "explanation": "In Python, the `append()` method adds an item to the end of a list. `add()` is for sets, `insert()` requires an index, and `push()` is not a valid list method."
+}

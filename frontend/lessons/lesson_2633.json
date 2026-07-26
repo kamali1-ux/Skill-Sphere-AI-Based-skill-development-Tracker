@@ -1,0 +1,15 @@
+{
+  "id": 2633,
+  "title": "SQL Beginner Concepts - Module #2633",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "What clause is used to filter query results based on conditions involving column `client`?",
+  "options": [
+    "GROUP BY",
+    "WHERE",
+    "HAVING",
+    "ORDER BY"
+  ],
+  "answer": "WHERE",
+  "explanation": "The WHERE clause is used to filter rows in a query based on a specific boolean condition."
+}

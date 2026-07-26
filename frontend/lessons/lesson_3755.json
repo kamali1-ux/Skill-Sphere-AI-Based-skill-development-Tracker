@@ -1,0 +1,15 @@
+{
+  "id": 3755,
+  "title": "SQL Advanced Concepts - Module #3755",
+  "category": "Data Science",
+  "difficulty": "Advanced",
+  "question": "How does the SQL window function `ROW_NUMBER() OVER (PARTITION BY cache ORDER BY values)` behave?",
+  "options": [
+    "It counts the total rows grouped by column `cache`.",
+    "It assigns a unique sequential integer to rows within each partition of `cache`, ordered by `values`.",
+    "It ranks rows but leaves gaps in sequential numbering if duplicate values exist in column `values`.",
+    "It sorts the physical rows in table `cache` using a clustered index."
+  ],
+  "answer": "It assigns a unique sequential integer to rows within each partition of `cache`, ordered by `values`.",
+  "explanation": "ROW_NUMBER() assigns a unique number starting at 1 for each row in a partition, resetting the count when the partition column changes."
+}

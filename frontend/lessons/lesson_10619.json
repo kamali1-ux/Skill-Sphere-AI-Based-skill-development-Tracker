@@ -1,0 +1,15 @@
+{
+  "id": 10619,
+  "title": "CSS Beginner Concepts - Module #10619",
+  "category": "Design",
+  "difficulty": "Beginner",
+  "question": "Which CSS property is used to change the background color of element `navigation`?",
+  "options": [
+    "color",
+    "background-color",
+    "background-fill",
+    "bgcolor"
+  ],
+  "answer": "background-color",
+  "explanation": "The background-color property sets the background color of an element. The color property sets text color."
+}

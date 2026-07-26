@@ -1,0 +1,15 @@
+{
+  "id": 2449,
+  "title": "SQL Beginner Concepts - Module #2449",
+  "category": "Data Science",
+  "difficulty": "Beginner",
+  "question": "Which SQL statement is used to retrieve only unique values from the column `records` in table `response`?",
+  "options": [
+    "SELECT DISTINCT records FROM response;",
+    "SELECT UNIQUE records FROM response;",
+    "SELECT INDIVIDUAL records FROM response;",
+    "SELECT DIFFERENT records FROM response;"
+  ],
+  "answer": "SELECT DISTINCT records FROM response;",
+  "explanation": "The DISTINCT keyword is the standard SQL syntax to filter out duplicate rows and return unique values."
+}

@@ -1,0 +1,15 @@
+{
+  "id": 17199,
+  "title": "Machine Learning Intermediate Concepts - Module #17199",
+  "category": "Data Science",
+  "difficulty": "Intermediate",
+  "question": "What is overfitting in a Machine Learning model, and how can it be detected?",
+  "options": [
+    "When the model output predictions are completely randomized between categories.",
+    "When model training is run on an excessively large GPU cluster, exceeding memory thresholds.",
+    "The model is too simple to capture the underlying dataset structure.",
+    "The model performs exceptionally well on training data but poorly on unseen test data; detected by comparing training vs validation metrics."
+  ],
+  "answer": "The model performs exceptionally well on training data but poorly on unseen test data; detected by comparing training vs validation metrics.",
+  "explanation": "Overfitting happens when a model learns the training noise. It is detected when training loss decreases but validation/test loss increases."
+}
