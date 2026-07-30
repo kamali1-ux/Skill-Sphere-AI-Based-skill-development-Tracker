@@ -39,7 +39,7 @@ public class GoalController {
         goal.setGoalName(update.getGoalName());
         goal.setTargetDate(update.getTargetDate());
         goal.setProgressPercentage(update.getProgressPercentage());
-        goal.setCompleted(update.isCompleted() || update.getProgressPercentage() >= 100);
+        goal.setCompleted(update.isCompleted() || (update.getProgressPercentage() != null && update.getProgressPercentage() >= 100));
         return goalRepository.save(goal);
     }
 
